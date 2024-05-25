@@ -4,13 +4,13 @@ The code utilizes the "NtQuerySystemInformation()" Native API function to get th
 
 __kernel_entry NTSTATUS NtQuerySystemInformation(
 
-  [in]            SYSTEM_INFORMATION_CLASS SystemInformationClass,
+        [in]            SYSTEM_INFORMATION_CLASS SystemInformationClass,
 
-  [in, out]       PVOID                    SystemInformation,
+        [in, out]       PVOID                    SystemInformation,
 
-  [in]            ULONG                    SystemInformationLength,
+        [in]            ULONG                    SystemInformationLength,
 
-  [out, optional] PULONG                   ReturnLength
+        [out, optional] PULONG                   ReturnLength
 
 );
 
