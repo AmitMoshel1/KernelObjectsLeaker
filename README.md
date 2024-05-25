@@ -11,4 +11,5 @@ The code utilizes the "NtQuerySystemInformation()" Native API function to get th
         );
         
 Function's documentation: 
+        
         https://learn.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation 
