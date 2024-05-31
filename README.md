@@ -15,6 +15,7 @@ Function's documentation:
         https://learn.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation 
 
 Update:
+
 Added functionality that will leak all device drivers base addresses and names on the system using the following 2 API functions:
 
         BOOL EnumDeviceDrivers(
